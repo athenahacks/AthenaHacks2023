@@ -1,1 +1,1 @@
-# AthenaHacks-2023
+# AthenaHacks 2023
