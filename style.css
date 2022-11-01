@@ -582,6 +582,7 @@ body {
 .profile-img{
   opacity: 0.9;
   width: 85%;
+  height: ;
   padding: 20px;
   border-radius: 50%;
 }
@@ -842,8 +843,9 @@ body {
 /* MOBILE */
 @media (max-width: 767px){
 
-  #mlh-trust-badge{
-    display:none;
+  #mlh-trust-badge {
+    /*display:none;*/ /*doesn't work since inline takes over*/
+    visibility: hidden;
   }
 
   #mlh-trust-badge-mobile{
