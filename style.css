@@ -89,6 +89,7 @@ body {
   text-decoration: none;
   /* background-color: blue; */
   right: 0%;
+  z-index: 10;
 }
 
 .apply-btn a{
