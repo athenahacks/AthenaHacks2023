@@ -4,7 +4,8 @@
 
 html,
 body {
-  background: linear-gradient(0deg, #bdc6e5 0%, #def3fd 100%);
+  /*background: linear-gradient(0deg, #bdc6e5 0%, #def3fd 100%);*/
+  background-color: #E231D5;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -24,18 +25,21 @@ body {
 }
 
 .parallax {
-  -webkit-perspective: 100px;
-          perspective: 100px;
-  height: 100vh;
+  /*-webkit-perspective: 100px;
+          perspective: 100px;*/ /*uncomment this out to reinstate*/
+  background-image: url("images/temp_websitecover3.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
   overflow-x: hidden;
   overflow-y: auto;
-  position: relative;
-  /* background-color: blue; */
+  /*position: relative;*/
+
+  height: 100vh;
+
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  /* margin-left: -1500px; */
 }
 
 .full-bg{
@@ -48,6 +52,7 @@ body {
   padding-bottom: 20px;
   width: 100%;
   position: relative;
+  
 }
 
 .parallax__layer {
@@ -56,8 +61,9 @@ body {
   right: 0;
   bottom: 0;
   left: 0;
-  overflow: hidden;
-  display: inline;
+/*  overflow: hidden;
+*//*  display: inline;
+*/ 
 }
 .parallax__container {
   position: relative;
@@ -84,11 +90,11 @@ body {
 
 .apply-btn{
   margin-right: 4px;
-  top: 80%;
+  top: 90%;
   position: absolute;
   text-decoration: none;
-  /* background-color: blue; */
   right: 0%;
+  z-index: 10;
 }
 
 .apply-btn a{
@@ -99,7 +105,7 @@ body {
   font-family: 'Cabin', sans-serif;
   border: 1px solid #170c36;
   border-radius: 4px;
-  color: white;
+  color: #E231D5;
   padding: 12px 30px;
   margin-left: 10px;
   text-align: center;
@@ -107,7 +113,7 @@ body {
 }
 
 .hacker-app{
-  background-color: #BE7063;
+  background-color: #24004A;
 }
 
 .mentor-app{
@@ -115,7 +121,7 @@ body {
 }
 
 .hacker-app:hover{
-  background-color: #9B5C51;
+  background-color: #590271;
 }
 
 .mentor-app:hover{
@@ -126,7 +132,6 @@ body {
   margin-right: 4px;
   top: 88%;
   position: absolute;
-  /* background-color: blue; */
   right: 0%;
 }
 
@@ -135,7 +140,7 @@ body {
 }
 
 .social-icons-test .fa{
-  margin-left: 30px;
+  margin-left: 25px;
   padding: 0;
 }
 
@@ -183,9 +188,10 @@ body {
 }
 
 .parallax__layer__title{
-  min-height: 750px;
+/*  min-height: 100vh;
+*/  max-height: 100vh;
   width: 40%;
-  margin-left: 50%;
+  margin-left: 55%;
   -webkit-transform: translateY(-40%) scale(1.1);
           transform: translateY(-40%) scale(1.1);
 }
@@ -194,7 +200,7 @@ body {
 .section{
   min-height: 100vh;
   width: 100vw;
-  padding-top: 3%;
+  padding-top: 1%;
   padding-bottom: 3%;
   padding-left: 8%;
   padding-right: 8%;
@@ -206,6 +212,7 @@ body {
   font-weight: 600;
   font-size: 3em;
   line-height: 1.8em;
+
 }
 
 .content{
@@ -218,12 +225,13 @@ body {
 
 /* ABOUT */
 #about{
-  padding-top: 5%;
+  padding-top: 2%;
   /* special */
   /* background: #221054; */
   background: #F99485;
-  background: linear-gradient(0deg, #9D165F 0%, #d24b5e 100%);
+  background: linear-gradient(0deg, #24004A 0%, #E231D5 100%);
   top: 0;
+
 }
 
 .social-icons-about{
@@ -278,11 +286,11 @@ body {
 }
 
 .about-text a{
-  color: #ffcccc;
+  color: #E231D5;
 }
 
 .about-text-mobile a{
-  color: #ffcccc;
+  color: #E231D5;
 }
 
 .inclusive{
@@ -337,9 +345,9 @@ body {
 /* FAQ */
 #faq{
   /* background-color: red; */
-  /* background-color: #3d182a; */
-  background: #F99485;
-  background: linear-gradient(0deg, #8A0D67 0%, #9D165F 100%);
+  background-color: #24004A;
+  /*background: #F99485;*/
+  /*background: linear-gradient(0deg, #8A0D67 0%, #9D165F 100%);*/
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -377,11 +385,11 @@ body {
 }
 
 .faq .question:hover {
-  color: #ffd6d6;
+  color: #E231D5;
 }
 
 .faq .active .question {
-  color: #ffd6d6;
+  color: #E231D5;
   font-weight: 600;
 }
 
@@ -396,7 +404,7 @@ body {
 
 
 .answer a{
-  color: #ffd6d6;
+  color: #E231D5;
 }
 
 .faq li.active .answer {
@@ -418,7 +426,7 @@ body {
 }
 
 #faq-right a {
-  color: #ffd6d6;
+  color: #E231D5;
 }
 
 #faq-right img {
@@ -433,9 +441,6 @@ body {
 
  /* KEYNOTE */
  #keynote{
-    /* background-color:greenyellow; */
-    /*background:#732E09; */
-    /*background: linear-gradient(0deg, #DA4D51 10%, #F99485 58%, #FDA646 100%);*/
     background: linear-gradient(0deg, #8A0D67 0%, #9D165F 100%); 
  }
 
@@ -477,7 +482,7 @@ body {
 
 #sponsors{
   background: #F99485;
-  background: linear-gradient(0deg, #9D165F 0%, #8A0D67 100%);
+  background: linear-gradient(0deg,  #E231D5 -50%, #24004A 100%);
 }
 
 #sponsor-logos {
@@ -494,7 +499,7 @@ body {
 }
 
 .sponsor-msg a{
-  color: white;
+  color: #E231D5;
 }
 
 
@@ -567,8 +572,10 @@ body {
 /* TEAM */
 #team{
   /* background-color:greenyellow; */
-  background: #F99485;
-  background: linear-gradient(0deg, #9D165F 0%, #8A0D67 100%); 
+/*  background: #F99485;
+*/  /*background: linear-gradient(0deg, #9D165F 0%, #8A0D67 100%);*/ 
+  background: linear-gradient(0deg, #24004A 0%, #E231D5 150%);
+
 }
 
 #organizers p{
@@ -623,8 +630,7 @@ body {
 /* FOOTER */
 #footer {
   width: 100%;
-  /* background-color: #5c3e66; */
-  background-color: #D04A5D; /*522106*/
+  background-color: #590271;/*#D04A5D*/; /*522106*/
   /* opacity: 0.1;*/
   padding: 15px;
   overflow: hidden;
@@ -637,7 +643,7 @@ body {
 
 .footer-left {
   float: left;
-  width: 25%;
+  width: 20%;
 }
 
 .made-with {
@@ -663,7 +669,7 @@ body {
 
 
 .fa {
-  padding-right: 15px;
+  padding-right: 5px;
   color: white;
 
 }
@@ -673,7 +679,9 @@ body {
   width: 200px;
   margin-right: 0;
 }
-
+.social-icons a{
+  text-decoration: none;
+}
 @media (max-width: 1250px) {
   /* to help parallax remain smooth */
   .social-icons-test{
@@ -694,7 +702,7 @@ body {
     margin-left: 20px;
   }
   .apply-btn{
-    top: 70%;
+    top: 80%;
   }
 
   /* about */
@@ -883,7 +891,7 @@ body {
 
   .social-icons-mobile{
     position: absolute;
-    top: 45%;
+    top: 65%;
     right: 8%;
     padding: 0;
     text-align: right;
@@ -908,7 +916,7 @@ body {
     padding: 9px 17px;
     margin-top: 10px;
     margin-left: 5px;
-    color: white;
+    color: #E231D5;
     font-size: 1em;
     border-radius: 4px;
   }
@@ -1107,8 +1115,12 @@ body {
 
 /* FOOTER */
 #footer{
-  /* background-color: #e36f81; */
-  background-color: #5c3e66;
+  background-color: #590271;
+}
+
+.made-width {
+  text-align: right;
+  width: 100%;
 }
 
 }
