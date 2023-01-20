@@ -48,7 +48,7 @@ body {
   background-size:     cover;                      /* <------ */
   background-repeat:   no-repeat;
   background-position: center center;
-  min-height: 300px;
+  min-height: 320px;
   padding-bottom: 20px;
   width: 100%;
   position: relative;
@@ -106,7 +106,9 @@ body {
   border: 1px solid #170c36;
   border-radius: 4px;
   color: #E231D5;
-  padding: 12px 30px;
+/*  padding: 12px 30px;*/
+  padding: 10px 0px;
+  width: 220px;
   margin-left: 10px;
   text-align: center;
   text-decoration: none;
@@ -891,8 +893,8 @@ body {
 
   .social-icons-mobile{
     position: absolute;
-    top: 65%;
-    right: 8%;
+    top: 60%;
+    right: 3%;
     padding: 0;
     text-align: right;
   }
@@ -913,11 +915,12 @@ body {
   .apply-mobile{
     font-family: 'Cabin', sans-serif;
     border: 1px solid #170c36;
-    padding: 9px 17px;
-    margin-top: 10px;
-    margin-left: 5px;
+    padding: 7px 0px;
+    width: 215px;
+    margin-bottom: 9px;
+/*    margin-left: 5px;*/
     color: #E231D5;
-    font-size: 1em;
+    font-size: 0.9em;
     border-radius: 4px;
   }
 
