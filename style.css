@@ -200,7 +200,7 @@ body {
 
 /* sections */
 .section{
-  min-height: 100vh;
+/*  min-height: 100vh;*/
   width: 100vw;
   padding-top: 1%;
   padding-bottom: 3%;
@@ -443,7 +443,7 @@ body {
 
  /* KEYNOTE */
  #keynote{
-    background: linear-gradient(0deg, #8A0D67 0%, #9D165F 100%); 
+  background: #A320A7;
  }
 
  #keynote-info-mobile{
