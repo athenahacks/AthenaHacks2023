@@ -542,7 +542,7 @@ body {
 .tier3 img {
   max-width: 32vw;
   padding: 20px 10px 30px 30px;
-  max-height: 20vh;
+  max-height: 24vh;
 }
 
 /* their logo has a weird thing that makes it small looking so u gotta fake it being bigger */
