@@ -5,7 +5,7 @@
 html,
 body {
   /*background: linear-gradient(0deg, #bdc6e5 0%, #def3fd 100%);*/
-  background-color: #E231D5;
+  background-color: #24004A;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -1052,19 +1052,6 @@ body {
     height: 60%;
   }
 
-  #pinnacle{
-    width: 8vh;
-  }
-
-  #echoar-mobile{
-    width: 100%;
-  }
-
-  #echoar{
-    width: 22vh;
-    padding-right: 30px;
-  }
-
   /* KEYNOTE */
   #keynote-info{
     display: none;
@@ -1126,4 +1113,18 @@ body {
   width: 100%;
 }
 
+}
+
+/* SCHEDULE */
+#schedule-content {
+  background-color: #24004A;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+#schedule {
+  width: 100%;
+  height: auto;
 }
