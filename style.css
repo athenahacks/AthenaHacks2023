@@ -5,7 +5,7 @@
 html,
 body {
   /*background: linear-gradient(0deg, #bdc6e5 0%, #def3fd 100%);*/
-  background-color: #24004A;
+  background-color: #E231D5;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -410,8 +410,9 @@ body {
 }
 
 .faq li.active .answer {
-  max-height: 275px;
+  max-height: 400px;
   padding-bottom: 25px;
+  padding-top: 0px;
   transition: max-height 0.5s ease, padding-bottom 0.5s ease;
   /*color: #FEFFC4;*/
 }
@@ -736,7 +737,7 @@ body {
   }
 
   .answer{
-    width: 90%;
+    width: 95%;
   }
 
   #faq-right{
